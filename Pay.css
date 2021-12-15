@@ -1,0 +1,67 @@
+body{
+    background-image: url(Images/pay.jpg);
+    height: 100%;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    max-width: 700px;
+    background: #f1ecec;
+    border: 1px ;
+    padding: 30px 30px 20px 30px;
+    font: 12px Arial,Helvetica,sans-serif;
+    color: #666;
+    border-radius: 5px;
+}
+.container h1{
+    font: 24px "Trebuchet MS",Arial,Helvetica,sans-serif;
+    padding: 20px 0px 20px 40px;
+    display: block;
+    margin: -30px -30px 10px -30px;
+    color: #FFF;
+    background: #09cff1;
+    text-shadow: 1px 1px 1px #949494;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius : 5px 5px 0px 0px;
+    border-bottom: 1px solid #09cff1; 
+}
+.container h1>span{
+    display: block;
+    font-size: 11px;
+    color: #FFF;
+}
+.container label{
+    display: block;
+    margin: 0px 0px 5px;
+}
+input[type="text"],input[type="email"],input[type="number"],input[type="password"],input[type="date"],select,
+textarea{
+     columns: #555;
+    height: 32px;
+    line-height: 15px;
+    width: 100%;
+    padding: 0px 0px 0px 10px;
+    margin-top: 2px;
+    border: 1px solid #E5E5E5;
+    outline : 0;
+    font: normal 14px/14px Arial,Helvetica,sans-serif;
+}
+input[type="submit"]
+{
+    background-color: #09cff1;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer ;
+    width: 100%;
+}
+input[type="submit"]:hover{
+    background-color: #f1b102;
+}
